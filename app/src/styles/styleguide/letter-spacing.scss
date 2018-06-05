@@ -1,0 +1,8 @@
+@import '~sass-rem/rem';
+
+:root {
+  --letter-spacing-tiny: rem(0.2px);
+  --letter-spacing-small: rem(0.4px);
+  --letter-spacing-medium: rem(0.6px);
+  --letter-spacing-large: rem(1px);
+}

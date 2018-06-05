@@ -1,8 +1,16 @@
-// @flow
 import React, {Component} from 'react';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import {Home, PageTwo} from './src/pages';
 
-export default class App extends Component {
+export class App extends Component {
   render() {
-    return <div>{this.props.children}</div>;
+    return (
+      <BrowserRouter>
+        <Switch>
+          <Route path="/page2" component={PageTwo} />
+          <Route path="/" component={Home} />
+        </Switch>
+      </BrowserRouter>
+    );
   }
 }

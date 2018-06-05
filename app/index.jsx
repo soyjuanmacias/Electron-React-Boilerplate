@@ -1,22 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { AppContainer } from 'react-hot-loader';
-import Root from './containers/Root';
-import './app.global.css';
+import { App } from './app';
+import './app.global.scss';
 
 ReactDOM.render(
   <AppContainer>
-    <Root />
+    <App />
   </AppContainer>,
   document.getElementById('root')
 );
 
 if (module.hot) {
-  module.hot.accept('./containers/Root', () => {
-    const NextRoot = require('./containers/Root'); // eslint-disable-line global-require
+  module.hot.accept('./app', () => {
+    const NextApp = require('./app'); // eslint-disable-line global-require
     ReactDOM.render(
       <AppContainer>
-        <NextRoot />
+        <NextApp />
       </AppContainer>,
       document.getElementById('root')
     );

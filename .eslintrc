@@ -34,7 +34,8 @@
     "react/jsx-no-bind": "off",
     "react/jsx-filename-extension": ["error", { "extensions": [".js", ".jsx"] }],
     "react/prefer-stateless-function": "off",
-    "react/prop-types": 0
+    "react/prop-types": 0,
+    "import/prefer-default-export": "off"
   },
   "plugins": [
     "flowtype",

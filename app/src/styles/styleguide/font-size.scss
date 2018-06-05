@@ -1,0 +1,9 @@
+@import "node_modules/sass-rem/rem";
+
+:root {
+  --font-tiny: rem(8px);
+  --font-small: rem(12px);
+  --font-medium: rem(16px);
+  --font-large: rem(24px);
+  --font-huge: rem(32px);
+}

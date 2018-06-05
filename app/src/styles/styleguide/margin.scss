@@ -1,0 +1,10 @@
+@import '~sass-rem/rem';
+
+:root {
+  --margin-tiny: rem(8px);
+  --margin-small: rem(16px);
+  --margin-medium: rem(24px);
+  --margin-large: rem(36px);
+  --margin-huge: rem(40px);
+}
+

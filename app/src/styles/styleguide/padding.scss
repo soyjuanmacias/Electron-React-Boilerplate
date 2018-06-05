@@ -1,0 +1,10 @@
+@import '~sass-rem/rem';
+
+:root {
+  --padding-tiny: rem(8px);
+  --padding-small: rem(16px);
+  --padding-medium: rem(24px);
+  --padding-large: rem(36px);
+  --padding-huge: rem(40px);
+}
+
