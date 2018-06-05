@@ -1,8 +1,8 @@
 {
-  "name": "dufry-arcade",
-  "productName": "DufryArcade",
+  "name": "electron-react-boilerplate",
+  "productName": "ElectronReactBoilerplate",
   "version": "0.13.3",
-  "description": "Applicacion made by Opinno to Dufry Arcades",
+  "description": "Boilerplate aplication with Electron and React",
   "scripts": {
     "build": "concurrently \"npm run build-main\" \"npm run build-renderer\"",
     "build-dll": "cross-env NODE_ENV=development node --trace-warnings -r babel-register ./node_modules/webpack/bin/webpack --config webpack.config.renderer.dev.dll.js --colors",
