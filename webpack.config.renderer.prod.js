@@ -131,6 +131,18 @@ export default merge.smart(baseConfig, {
           }
         }
       },
+      // OTF Font
+      {
+        test: /\.otf(\?v=\d+\.\d+\.\d+)?$/,
+        use: {
+          loader: 'url-loader',
+          options: {
+            limit: 10000,
+            mimetype: 'font/opentype'
+          }
+        }
+      },
+
       // EOT Font
       {
         test: /\.eot(\?v=\d+\.\d+\.\d+)?$/,

@@ -10,6 +10,9 @@ export class Home extends Component {
         <div className="home__container" data-tid="container">
           <h2>Home</h2>
           <Link to="/page2">Go to page 2</Link>
+          <div>
+            <img src="../assets/img/react-logo.png" alt="" />
+          </div>
         </div>
       </div>
     );

@@ -11,12 +11,7 @@
  * @flow
  */
 import { app, BrowserWindow } from 'electron';
-// import desktopIdle from 'desktop-idle';
 import MenuBuilder from './menu';
-
-// console.log('El tiempoooooo')
-// console.log(desktopIdle.getIdleTime());
-
 
 let mainWindow = null;
 
